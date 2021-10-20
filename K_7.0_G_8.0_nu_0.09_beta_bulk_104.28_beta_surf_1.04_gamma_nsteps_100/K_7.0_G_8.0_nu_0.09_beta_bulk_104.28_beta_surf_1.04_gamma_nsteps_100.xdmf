@@ -1,0 +1,713 @@
+<?xml version="1.0"?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []>
+<Xdmf Version="3.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <Domain>
+    <Grid Name="TimeSeries" GridType="Collection" CollectionType="Temporal">
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="19109" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="19109 4" NumberType="UInt" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/Mesh/0/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/Mesh/0/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.000000000000000e+00" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/0</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="1.010101010101010e-02" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/1</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="2.020202020202020e-02" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/2</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="3.030303030303030e-02" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/3</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="4.040404040404041e-02" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/4</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="5.050505050505051e-02" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/5</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="6.060606060606061e-02" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/6</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="7.070707070707072e-02" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/7</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="8.080808080808081e-02" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/8</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="9.090909090909091e-02" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/9</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="1.010101010101010e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/10</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="1.111111111111111e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/11</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="1.212121212121212e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/12</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="1.313131313131313e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/13</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="1.414141414141414e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/14</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="1.515151515151515e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/15</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="1.616161616161616e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/16</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="1.717171717171717e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/17</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="1.818181818181818e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/18</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="1.919191919191919e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/19</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="2.020202020202020e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/20</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="2.121212121212121e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/21</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="2.222222222222222e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/22</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="2.323232323232323e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/23</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="2.424242424242424e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/24</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="2.525252525252525e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/25</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="2.626262626262627e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/26</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="2.727272727272728e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/27</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="2.828282828282829e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/28</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="2.929292929292929e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/29</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="3.030303030303030e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/30</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="3.131313131313131e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/31</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="3.232323232323233e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/32</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="3.333333333333334e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/33</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="3.434343434343435e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/34</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="3.535353535353536e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/35</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="3.636363636363636e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/36</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="3.737373737373738e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/37</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="3.838383838383839e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/38</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="3.939393939393940e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/39</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="4.040404040404041e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/40</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="4.141414141414142e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/41</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="4.242424242424243e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/42</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="4.343434343434344e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/43</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="4.444444444444445e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/44</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="4.545454545454546e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/45</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="4.646464646464647e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/46</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="4.747474747474748e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/47</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="4.848484848484849e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/48</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="4.949494949494950e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/49</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="5.050505050505051e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/50</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="5.151515151515152e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/51</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="5.252525252525253e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/52</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="5.353535353535354e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/53</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="5.454545454545455e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/54</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="5.555555555555556e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/55</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="5.656565656565657e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/56</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="5.757575757575758e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/57</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="5.858585858585859e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/58</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="5.959595959595960e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/59</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="6.060606060606061e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/60</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="6.161616161616162e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/61</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="6.262626262626263e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/62</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="6.363636363636365e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/63</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="6.464646464646465e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/64</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="6.565656565656566e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/65</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="6.666666666666667e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/66</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="6.767676767676768e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/67</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="6.868686868686870e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/68</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="6.969696969696970e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/69</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="7.070707070707072e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/70</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="7.171717171717172e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/71</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="7.272727272727273e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/72</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="7.373737373737375e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/73</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="7.474747474747475e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/74</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="7.575757575757577e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/75</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="7.676767676767677e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/76</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="7.777777777777778e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/77</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="7.878787878787880e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/78</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="7.979797979797980e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/79</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="8.080808080808082e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/80</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="8.181818181818182e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/81</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="8.282828282828284e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/82</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="8.383838383838385e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/83</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="8.484848484848485e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/84</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="8.585858585858587e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/85</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="8.686868686868687e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/86</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="8.787878787878789e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/87</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="8.888888888888890e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/88</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="8.989898989898991e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/89</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="9.090909090909092e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/90</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="9.191919191919192e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/91</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="9.292929292929294e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/92</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="9.393939393939394e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/93</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="9.494949494949496e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/94</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="9.595959595959597e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/95</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="9.696969696969697e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/96</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="9.797979797979799e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/97</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="9.898989898989899e-01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/98</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid>
+        <xi:include xpointer="xpointer(//Grid[@Name=&quot;TimeSeries&quot;]/Grid[1]/*[self::Topology or self::Geometry])" />
+        <Time Value="1.000000000000000e+00" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="4946 3" Format="HDF">K_7.0_G_8.0_nu_0.09_beta_bulk_104.28_beta_surf_1.04_gamma_nsteps_100.h5:/VisualisationVector/99</DataItem>
+        </Attribute>
+      </Grid>
+    </Grid>
+  </Domain>
+</Xdmf>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<dolfin xmlns:dolfin="http://fenicsproject.org">
+  <parameters name="user">
+    <parameter key="G" type="double" value="8" />
+    <parameter key="K" type="double" value="7" />
+    <parameter key="beta_bulk" type="double" value="6" />
+    <parameter key="beta_surf" type="double" value="0.059999999999999998" />
+    <parameter key="gamma_max" type="double" value="1" />
+    <parameter key="gamma_min" type="double" value="0" />
+    <parameter key="gamma_nsteps" type="int" value="100" />
+  </parameters>
+</dolfin>
