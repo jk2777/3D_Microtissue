@@ -5,7 +5,8 @@ A model for 3D deformation and reconstruction of contractile microtissues
 
 This code was developed with Python(2.7.17) and FEniCS(2019.2.0.dev0).
 
-This code is open source for research and academic purpose, please cite below paper for reference.
+This code is open source for research and academic purpose.
+Please cite the following work if you find this code useful for your work:
 
 Paper:
 
